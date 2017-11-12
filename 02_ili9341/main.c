@@ -29,6 +29,8 @@ void main()
     GUI_Register(&ili9341_gui_interface);
     
     GUI_Init();
+    
+    ili9341_set_mode(ILI9341_LANDSCAPE);
 
     int i = 0;
     for(i=0; i<20; i++) {
